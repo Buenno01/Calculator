@@ -80,7 +80,7 @@ function checkOperation (symbol){
 function calculate (symbol){
     const intBuffer = parseInt(buffer);
     if (!operator){
-        runningTotal = buffer;
+        runningTotal = intBuffer;
         buffer = '0';
         operator = symbol;
     } else {
