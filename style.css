@@ -1,0 +1,34 @@
+@import url('/styles/calculator.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
+
+:root{
+    --font-family: 'Roboto Mono', monospace;
+    --primary-color: #EEF1FF;
+    --secondary-color: #D2DAFF;
+    --terciary-color: #AAC4FF;
+    --quaternary-color: #B1B2FF;
+    --orange: #FFB84C;
+    --purple: #A459D1;
+    --red: #F16767;
+    --grey: #F5EAEA;
+}
+
+body{
+    align-items: center;
+    font-family: var(--font-family);
+    height: 100vh;
+    background: linear-gradient(60deg, var(--purple), var(--red), var(--orange));
+    display: flex;
+}
+
+button{
+    font-family: inherit;
+    color: var(--quaternary-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
