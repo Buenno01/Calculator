@@ -78,13 +78,13 @@ function checkOperation (symbol){
 }
 
 function calculate (symbol){
-    const intBuffer = parseInt(buffer);
+    const floatBuffer = parseFloat(buffer);
     if (!operator){
-        runningTotal = intBuffer;
+        runningTotal = floatBuffer;
         buffer = '0';
         operator = symbol;
     } else {
-        mathRun(intBuffer);
+        mathRun(floatBuffer);
     }
 }
 
