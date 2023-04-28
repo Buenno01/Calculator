@@ -2,7 +2,7 @@
 This project is a simple calculator where I just wanted to train my js skills and test some styles.
 
 <div style="display: inline_block"><br>
-    <img align="center" alt="print of the calculator" height="600px" src="https://github.com/Buenno01/calculator/blob/main/calculator.png">
+    <img align="center" alt="print of the calculator" height="40%" src="https://github.com/Buenno01/calculator/blob/main/calculator.png">
 </div>
 
 <div><br> 
